@@ -1,5 +1,6 @@
 body {
     background-color: #000; 
+    font-family: var(--font-dm-sans);
 }
 
 h1 {
@@ -38,7 +39,6 @@ ul {
     text-decoration: none;
     font-weight: 600;
     font-size: 14px;
-    font-family: "DM Sans", sans-serif;
 }
 
 
@@ -80,7 +80,6 @@ ul {
     border: 0;
     font-size: 14px;
     font-weight: 700;
-    font-family: "DM Sans", sans-serif;
     text-align: center;
     text-decoration: none;
     text-transform: none;
@@ -120,7 +119,6 @@ ul {
 
 .section-playlist__content .text {
     padding-bottom: 14px;
-    font-family: "DM Sans", sans-serif;
     color: #fff;   
 }
 
@@ -141,7 +139,6 @@ ul {
     border-radius: 20px;
     font-size: 12px;
     font-weight: 700;
-    font-family: "DM Sans", sans-serif;
     text-decoration: none;
     text-transform: none;
     padding: 10px;
@@ -180,6 +177,13 @@ ul {
     border-radius: 20px;
 }
 
+.footer {
+    background-color: #fff;
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    right: 0;
+}
 
 
 
