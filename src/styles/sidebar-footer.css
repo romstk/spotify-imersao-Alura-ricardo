@@ -178,14 +178,47 @@ ul {
 }
 
 .footer {
-    background-color: #fff;
+    display: flex;
+    background: linear-gradient(135deg, #4e54c8, #8f94fb, #e96dac); /* Azul para rosa */
     position: fixed;
     bottom: 0;
     left: 0;
-    right: 0;
+    padding: 10px;
+    justify-content: space-between;
+    width: 100%;
+    box-sizing: border-box;
+    color: #fff;
+
 }
 
+.footer__premium {
+    display: flex;
+    flex-direction: column;
+   
+}
 
+.footer__title {
+    margin-bottom: 10px;
+}
+
+.footer__text {
+    margin-top: 10px;
+    
+}
+
+.footer__botao {
+    width: 20%;
+    align-self: flex-end;
+}
+
+.footer__botao button{
+    font-weight: 700;
+    background-color: #fff;
+    border-radius: 100px;
+    font-size: 14px;
+    padding: 20px;
+
+}
 
 
 
